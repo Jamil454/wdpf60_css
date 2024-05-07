@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input:required{
+            background-color: aquamarine;
+        }
+        input[type="text"]:optional{
+            background-color: blueviolet;
+    }
+    input:valid{
+        background-color: antiquewhite; color:rgb(236, 233, 48);
+    }
+    input:invalid{
+        background-color: rgb(53, 188, 75); color:rgb(224, 21, 21);
+    }
+    </style>
+</head>
+<body>
+    <form action="text">
+        <input type="text" name="full name" required placeholder="enter name"> <br>
+        <input type="text" name="father" placeholder="enter father name" > <br>
+        <input type="number" name="age" required placeholder="enter age" > <br>
+        <input type="checkbox" name="php" required >php <br>
+    </form>
+</body>
+</html>
